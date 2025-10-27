@@ -21,7 +21,7 @@ export default async function handler(req, res) {
           <meta property="fc:frame" content="vNext" />
           <meta property="fc:frame:image" content="https://i.imgur.com/8B3Vx2k.png" />
           <meta property="fc:frame:button:1" content="🔮 Another Wish" />
-          <meta property="fc:frame:post_url" content="https://daily-wishes-frame.vercel.app/api/wish" />
+          <meta property="fc:frame:post_url" content="https://daily-wishes-fixed.vercel.app/api/wish" />
           <meta property="og:image" content="https://i.imgur.com/8B3Vx2k.png" />
           <meta property="og:title" content="${randomWish}" />
       </head>
@@ -41,7 +41,7 @@ export default async function handler(req, res) {
           <meta property="fc:frame" content="vNext" />
           <meta property="fc:frame:image" content="https://i.imgur.com/6Q3Vx1j.png" />
           <meta property="fc:frame:button:1" content="🌟 Get Daily Wish" />
-          <meta property="fc:frame:post_url" content="https://daily-wishes-frame.vercel.app/api/wish" />
+          <meta property="fc:frame:post_url" content="https://daily-wishes-fixed.vercel.app/api/wish" />
       </head>
       <body></body>
       </html>
