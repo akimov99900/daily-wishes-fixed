@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/api/wish", "dest": "/api/wish" },
+    { "src": "/api/vote", "dest": "/api/vote" }
+  ]
+}

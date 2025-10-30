@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/wish",
+      "destination": "/api/wish.ts"
+    },
+    {
+      "source": "/api/vote", 
+      "destination": "/api/vote.ts"
+    },
+    {
+      "source": "/api/og",
+      "destination": "/api/og.ts"
+    }
+  ],
+  "functions": {
+    "api/*.ts": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_BASE_URL": "@base-url"
+  }
+}
